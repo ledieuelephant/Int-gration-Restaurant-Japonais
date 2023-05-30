@@ -1,0 +1,488 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: gooddogcool;
+    src: url(./font/GOODDC__.TTF);
+}
+
+body {
+    background-color: black;
+    width: 1440px;
+    margin-left: 220px;
+}
+
+#section1 {
+    background-image: url("./img/bg-section1.gif");
+    height: 1000px;
+    animation-name: fondu-s1;
+    animation-duration: 2s;
+}
+
+@keyframes fondu-s1 {
+    0% {opacity : 0;}
+    100% {opacity: 1;}
+}
+
+@keyframes navbarslide {
+    0% {margin-right: 500px; opacity: 0;}
+    100% {margin-right: 0px; opacity: 1;}
+}
+
+@keyframes fondup {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+#navbar {
+    text-align: right;
+    padding-top: 60px;
+    animation-name: navbarslide;
+    animation-duration: 2s;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: #afc67b;
+    font-size: 25px;
+    margin-right: 35px;
+    font-family: "Montserrat";
+}
+
+#logo {
+    height: 160px;
+    margin-left: 900px;
+    padding-top: 80px;
+    animation-name: fondup;
+    animation-duration: 2s;
+}
+
+#opening {
+    margin-left: 900px;
+    font-size: 40px;
+    padding-top: 160px;
+    font-family: "Montserrat";
+    color: #afc67b;
+    animation-name: fondup;
+    animation-duration: 2s;
+}
+
+#date {
+    margin-left: 900px;
+    font-size: 60px;
+    font-family: "Montserrat";
+    color: #afc67b;
+    animation-name: fondup;
+    animation-duration: 2s;
+}
+
+#button-lm {
+    height: 70px;
+    width: 320px;
+    font-size: 30px;
+    color: #afc67b;
+    background-color: rgba(93,105,66, 0.8);
+    border: none;
+    margin-left: 900px;
+    margin-top: 50px;
+    font-family: "Montserrat";
+    animation-name: fondup;
+    animation-duration: 2s;
+    border-radius: 10px;
+}
+
+#section2 {
+    height: 490px;
+    display: flex;
+    background-color: #212121;
+}
+
+#s2-text {
+    margin-left: 100px;
+}
+
+#s2-title {
+    font-family: "gooddogcool";
+    color: #afc67b;
+    font-size: 20px;
+    margin-top: 164px;
+}
+
+#s2-paragraph {
+    padding-top: 50px;
+    color: white;
+    font-family: "Montserrat";
+    line-height: 1.8;
+}
+
+#section3 {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(93,105,66, 0.8);
+    height: 380px;
+}
+
+.s3-block {
+    padding-top: 160px;
+    width: 325px;
+}
+
+.s3-titre {
+    font-family: "gooddogcool";
+    color: white;
+    font-size: 20px;
+}
+
+.s3-paragraphe {
+    font-family: "Montserrat";
+    color: white;
+    padding-top: 40px;
+    line-height: 1.7;
+}
+
+#section4 {
+    background-color:#212121;
+}
+
+#s4-block {
+    background-color: rgba(93,105,66, 0.8);
+    height: 1030px;
+    width: 1080px;
+    margin-left: 180px;
+}
+
+#s4-header {
+    text-align: center;
+    height: 210px;
+}
+
+#s4-header-titre {
+    text-align: center;
+    font-family: "gooddogcool";
+    color: #afc67b;
+    font-size: 36px;
+    padding-top: 60px;
+}
+
+#s4-header-titre2 {
+    text-align: center;
+    font-family: "Montserrat";
+    color: white;
+    font-size: 30px;
+    padding-bottom: 60px;
+}
+
+#s4-container1, #s4-container2, #s4-container3 {
+    display: flex;
+}
+
+.s4-square {
+    width: 270px;
+    height: 274px;
+}
+
+.s4-textual {
+    text-align: center;
+}
+
+.s4-titre {
+    padding-top: 65px;
+    font-family: "gooddogcool";
+    color: #afc67b;
+    font-size: 23px;
+}
+.s4-description {
+    padding-top: 30px;
+    width: 180px;
+    font-family: "Montserrat";
+    color: white;
+    font-size: 14px;
+    margin-left: 45px;
+}
+
+.s4-prix {
+    font-family: "gooddogcool";
+    color: white;
+    font-size: 20px;
+    padding-top: 25px;
+}
+
+#section5 {
+    height: 400px;
+    background-color: rgba(93,105,66, 0.8);
+}
+
+#s5-titre {
+    padding-top: 145px;
+    font-family: "gooddogcool";
+    color: #afc67b;
+    font-size: 23px;
+    text-align: center;
+}
+
+#s5-texte {
+    padding-top: 35px;
+    font-family: "Montserrat";
+    color: white;
+    width: 690px;
+    text-align: center;
+    margin-left: 380px;
+}
+
+#section6 {
+    height: 1730px;
+    background-image: url("./img/s6-bg.jpg");
+}
+
+#s6-block {
+    height: 600px;
+    background-color: rgba(93,105,66);
+    top: 15%;
+    position: relative;
+}
+
+#s6-titre {
+    color: #afc67b;
+    font-family: "gooddogcool";
+    font-size: 60px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+#s6-titre2 {
+    color: white;
+    font-family: "Montserrat";
+    font-size: 45px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+
+#s6-container {
+    margin-left: 100px;
+    display: flex;
+}
+
+#s6-container2 {
+    padding-left: 325px;
+}
+
+#s6-container1-1 {
+    display: flex;
+}
+#s6-container1-2 {
+    display: flex;
+    padding-top: 55px;
+}
+#s6-container1-3 {
+    display: flex;
+    padding-top: 55px;
+}
+
+#s6-container2-1 {
+    display: flex;
+}
+#s6-container2-2 {
+    display: flex;
+    padding-top: 55px;
+}
+#s6-container2-3 {
+    display: flex;
+    padding-top: 55px;
+}
+
+.s6-image {
+    height: 83px;
+    width: 83px;
+    background-color: #c5c6c4;
+    border-radius: 100%;
+}
+
+.s6-image img {
+    padding-top: 25px;
+    padding-left: 7px;
+}
+
+.s6-texte {
+    font-family: "gooddogcool";
+    padding-left: 10px;
+    font-size: 25px;
+    padding-bottom: 10px;
+    color: white;
+}
+
+.s6-texte2 {
+    font-family: "montserrat";
+    width: 350px;
+    padding-left: 10px;
+    color : white;
+}
+
+.s6-prix {
+    font-family: "gooddogcool";
+    color: white;
+}
+
+#section7{
+    background-color:#212121;
+    height: 455px;
+}
+
+#s7-title {
+    text-align: center;
+    font-family: "gooddogcool";
+    font-size: 80px;
+    color: white;
+    padding-top: 50px;
+}
+
+#s7-form {
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#section7 input {
+    background-color: transparent;
+    border: white 1px solid;
+    color: white;
+    width: 240px;
+    height: 30px;
+    font-family: "Montserrat";
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 55px;
+}
+
+#section7 input::placeholder {
+    color: white;
+    font-family: "Montserrat";
+    padding-left: 10px;
+}
+
+/*Move the text inside the input date to the right*/
+
+input[type="time"]::-webkit-calendar-picker-indicator {
+    color: white;
+}
+
+#section7 input[type="date"] {
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 220px;
+    color: white;
+}
+
+#section7 input[type="date"]::-webkit-calendar-picker-indicator {
+    color: white;
+}
+
+#section7 input[type="time"] {
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 220px;
+    color: white;
+}
+
+#section7 label {
+    color: white;
+    font-family: "Montserrat";
+}
+
+#section8 {
+    background-image: url("./img/bg-s8.png");
+    height: 865px;
+}
+
+#section9 {
+    height: 820px;
+    background-color: rgba(93,105,66);
+}
+
+#s9-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.s9-card {
+    height: 500px;
+    width: 339px;
+    background-color: white;
+}
+
+#s9-titre {
+    color: white;
+    font-family: "gooddogcool";
+    font-size: 60px;
+    text-align: center;
+    padding-top: 50px;
+    color: #afc67b;
+}
+
+#s9-titre2 {
+    color: white;
+    font-family: "Montserrat";
+    font-size: 45px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.s9-card-image {
+    height: 300px;
+}
+
+.s9-card-date {
+    margin-left: 25px;
+    margin-top: 20px;
+    font-family: "Montserrat";
+}
+
+.s9-card-titre {
+    margin-left: 25px;
+    margin-top: 20px;
+    font-family: "Montserrat";
+    font-weight: bold;
+}
+
+.s9-card-description {
+    margin-left: 25px;
+    margin-top: 2px;
+    font-family: "Montserrat";
+    font-weight: lighter;
+}
+
+.s9-card-link a {
+    margin-top: 20px;
+    margin-left: 25px;
+    font-family: "Montserrat";
+    color: black;
+    text-decoration: none;
+    border-bottom: #afc67b 7px solid;
+    display: inline-block;
+}
+
+#section10 {
+    height: 340px;
+    background-color:#212121;
+
+}
+
+#s10-texte {
+    font-family: "Montserrat";
+    font-size: 18px;
+    color: #afc67b;
+    width: 700px;
+    margin-left: 370px;
+    padding-top: 100px;
+    text-align: center;
+}
+
+#s10-auteur {
+    font-family: "gooddogcool";
+    font-size: 30px;
+    color: #afc67b;
+    text-align: center;
+    padding-top: 25px;
+}
